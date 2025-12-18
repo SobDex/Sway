@@ -135,9 +135,6 @@ bindsym XF86AudioPrev exec 'playerctl previous'
     #Clipboard
     bindsym $mod+Shift+v exec clipman pick --tool="rofi" --max-items=30
     
-    #Windows
-    bindsym $mod+Shift+w exec python3 ~/.config/sway/scripts/windows-sway.py
-    
     # Poweroff system
     bindsym $mod+x exec python3 ~/.config/sway/scripts/power-menu.py poweroff
 
