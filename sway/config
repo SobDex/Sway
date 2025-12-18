@@ -302,7 +302,5 @@ exec wl-paste -t text --watch clipman store --max-items 500 --no-persist
 
 # Notifications
 exec swaync
-# Autotiling
-exec_always /home/sob/.config/sway/scripts/autotiling.py
 # Network Manager
 exec_always --no-startup-id nm-applet
